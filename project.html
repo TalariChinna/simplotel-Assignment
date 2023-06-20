@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="project.css">
+    <script src="https://kit.fontawesome.com/4282d441bf.js" crossorigin="anonymous"></script>
+   </head>
+
+<body>
+    <nav class="tablet_and_large_size">
+        <div>
+            <a class="tablet_and_large_size_nav_links">Home</a>
+            <a class="tablet_and_large_size_nav_links">Order</a>
+            <a class="tablet_and_large_size_nav_links">Food</a>
+            <a class="tablet_and_large_size_nav_links">Restaurant</a>
+            <a class="tablet_and_large_size_nav_links">Testimonials</a>
+            <a class="tablet_and_large_size_nav_links">Contact Us</a>
+        </div>
+        <div>
+            <a><i class="fas fa-phone-alt fa-flip-horizontal phone_icon"></i></a>
+            <i class="fa-solid fa-cart-shopping shop_icon"></i>
+        </div>
+    </nav>
+    <nav class="mobile_size">
+        <div>
+            <i id="showMenu" onclick="showMenu()" class="fas fa-bars menu_bar"></i>
+            <ul id = "navLinks" class="hide_nav_links">
+                <li class="mobile_size_nav_links">Home</li>
+                <li class="mobile_size_nav_links">Order</li>
+                <li class="mobile_size_nav_links">Food</li>
+                <li class="mobile_size_nav_links">Restaurant</li>
+                <li class="mobile_size_nav_links">Testimonials</li>
+                <li class="mobile_size_nav_links">Contact Us</li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <div class="top_section">
+            <div class="top_section_card">
+                <h1 class="top_section_card_heading">LOREM IPSUM</h1>
+                <p class="top_section_card_para">
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </div>
+        </div>
+        <div class="top_section_color"></div>    
+    </div>
+    
+    <div class="order_section">
+        <h1 class="order_heading">Order Now</h1>
+        <div class="order_container">
+            <div class="order_items_card">
+                <img class="burger_img" src="img4.jpg" alt="Burger">
+                <div class="order_items_card_container">
+                    <h1 class="order_item_heading">BURGER</h1>
+                    <p class="order_item_para">Lorem Ipsum has been the industry's standard dummy text</p>
+                </div>    
+            </div>
+            <div class="order_items_card">
+                <img class="burger_img" src="img2.jpg" alt="Piza">
+                <h1 class="order_item_heading">PIZZA</h1>
+                <p class="order_item_para">Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+            <div class="order_items_card">
+                <img class="burger_img" src="img3.jpg" alt="Pasta">
+                <h1 class="order_item_heading">PASTA</h1>
+                <p class="order_item_para">Lorem Ipsum has been the industry's standard dummy text</p>
+            </div>
+        </div>
+        <div class="order_button_cont">
+            <button class="order_button">Order</button>   
+        </div>
+    </div>
+    <script src="project.js">
+    </script>
+</body>
+
+</html>
